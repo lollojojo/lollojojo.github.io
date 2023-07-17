@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact</title>
+  <meta name="description" content="Contact">
+  <meta name="author" content="LJ">
+  <link rel="stylesheet" href="contact.css">
+
+</head>
+<body>
+    <img src="https://cdn.pixabay.com/photo/2014/07/27/19/16/post-403145_1280.png">
+    <div class="contact">
+        <h2>Write me a Letter!</h2>
+      <form action="https://formsubmit.co/68aa87f3521670f55cbbad068ca348b1" method="POST">
+       <input type="text" name="_honey" style="display: none;">
+       <input type="hidden" name="_captcha" value="false">
+    
+        <input required type="text" name="full_name" placeholder="Full Name...">
+        <input required type="email" name="email" Placeholder="Email Address...">
+        <textarea required name="comment" placeholder="Comment, question?..."></textarea>
+        <button type="submit">Submit</button>
+      </div>
+
+      <footer>
+        <p>@Copyright Me 2023</p>
+      </footer>
+</body>
+</html>
