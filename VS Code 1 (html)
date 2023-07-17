@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>One Minute Book Review</title>
+  <meta name="description" content="Starter Template">
+  <meta name="author" content="LJ">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="book-reviews (html)">
+  <link rel="stylesheet" href="contact (html)">
+  <link rel="stylesheet" href="about (html)">
+</head>
+<body>
+
+    <div>
+      <h1 id="LJ">Lollo Jojo</h1>
+      <nav>
+        <a href="https://www.google.com/?hl=sv" target="_blank"><img src="https://freepngimg.com/save/122253-logo-instagram-free-download-png-hq/1032x1032"></a>
+      </nav>
+      <h2 id="subheading">Welcome to my magic place on the internet</h2>
+    </div>
+        
+    
+        <nav>
+            <a id="left" href="all-blogs (html)" target="_blank" class="nav">Blog Posts</a>
+            <a id="center" href="about (html)" target="_blank" class="nav">About</a>
+            <a id="right" href="contact (html)" target="_blank" class="nav">Contact</a>
+            <!--
+            <a href="https://www.w3schools.com/howto/howto_css_image_text.asp" target="_blank" class="nav">Buy Books</a>
+          -->
+        </nav>
+        
+      
+        
+        <div class="container1">
+          <img src="https://cdn.pixabay.com/photo/2016/03/04/19/36/beach-1236581_1280.jpg" alt="A Beach">
+        </div>
+        
+        <h2 id="subtitle1">Latest Posts</h2>
+         
+        <div id="N">
+          <article>
+              <div class="container">
+                  <img src="https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg">
+                  <div class="text">
+                      <h2>Thursday July 14th 2023</h2>
+                      <p>Welcome back to another blog post and another weekly update on my very exciting project.
+                        Unfortunally I am unable to share too much with you guys, but I can tell you that we are close. 
+                        <a href="all-blogs (html)#Aug 2023" target="_blank">Read more...</a>
+                      </p>
+                  </div>
+              </div>
+          </article>
+        </div>
+        
+        <div id="A">
+          <article>
+              <div class="container">
+                  <img src="https://cdn.pixabay.com/photo/2016/11/29/04/19/ocean-1867285_1280.jpg">
+                  <div class="text">
+                      <h2>Alkatras</h2>
+                      <p>Hi and welcome to another book review of the fantastic one and only  <a target="_blank" href="all-blogs (html)#July 2023">Read more...</p>
+                  </div>
+              </div>
+          </article>
+        </div>
+    
+    
+        <a href="all-blogs (html)" target="_blank">
+          <button type="button">Read more...</button>
+        </a>
+        
+        <h2 id="move">Comment section</h2>
+        <form id="form">
+          <div>
+          <label for="name"></label>
+          <input placeholder="Full name" id="name" type="text" name="name" required>
+        </div>
+        <div>
+          <label for="email"></label>
+          <input id="email" type="email" name="email" placeholder="Email" required>
+        </div>
+      <div>
+          <textarea id="comment" name="comment" placeholder="Enter comment here..." required></textarea>
+        </div>
+          <input id="send" type="button" onclick="myFunction()" value="Submit">
+        </form>
+        <h5>Comments:</h5>
+        <p id="data"></p>
+
+      <hr>
+
+        <div>
+          <h1>Subscribe via Email!</h1>
+          <form action="http://feedburner.google.com/fb/a/mailverify" id="feedform" method="post" target="popupwindow" onsubmit="window.open('http://feedburner.google.com/fb/a/mailverify?uri=helplogger', 'popupwindow', 'scrollbars=yes,width=550,height=520');return true">
+          <input gtbfieldid="3" id="email" name="email" onblur="if (this.value == &quot;&quot;) {this.value = &quot;Enter email address here&quot;;}" onfocus="if (this.value == &quot;Enter email address here&quot;) {this.value = &quot;&quot;;}" value="Enter email address here..." type="text" />
+          <input type="hidden" value="helplogger" name="uri"/><input type="hidden" name="loc" value="en_US"/>
+          <input id="send" value="Submit" type="submit" />
+          </form>
+        </div>
+
+    
+      
+        <footer>
+          <p>@Copyright Me 2023</p>
+        </footer>
+  <script>
+    function myFunction(){
+let data = "";  let Name = document.getElementById("name").value
+let Email = document.getElementById("email").value
+let Comment = document.getElementById("comment").value
+ 
+data = "Name : "+Name+"<br/>Comment : "+Comment
+ 
+document.getElementById("data").innerHTML = data  // display data to paragraph
+}
+  </script>
+  
+</body>
+</html>

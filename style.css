@@ -1,0 +1,271 @@
+body {
+    Background-color: whitesmoke; 
+    Font-family: times;
+  }
+  
+  h1 {
+   Font-family: times;
+   Text-align: center;
+   Font-size: 35px;
+   Color: darkslategray;
+   margin-bottom: 0px;
+  }
+  
+  #LJ {
+    font-family: fantasy;
+  }
+
+  h2 {
+    Font-size: 15px;
+    Text-align: center;
+    Margin-bottom: 10px;
+  }
+  
+  #subheading {
+   Color: darkslategray;
+   Font-style: italic;
+   Font-size: 20px;
+   font-family: times;
+   margin-top: 50px;
+  }
+  
+  
+  Img {
+    Height: 500px;
+    Width: 100%;
+    Object-fit: cover; 
+    align-items: center; 
+    Margin-top: px;
+    Margin-bottom: 30px;
+  }
+
+  
+  #subtitle1 {
+    Color: darkslategray; 
+    Text-align: left;
+    Font-size: 30px;
+    Background-color: snow; 
+    Padding: 10px; 
+    Text-decoration-line: underline;
+    Text-decoration-style: wavy; 
+    Text-decoration-color: tan; 
+    Font-family: libre baskerville;
+  }
+  
+  .nav {
+    Color: white;
+    Text-decoration: none;
+    Padding: 10px;
+    Border: solid 2px tan;
+    Border-radius: 10px; 
+    Margin: 30px;
+    Background-color: Peru;
+    Font-style: normal;
+    Width: 90px;
+    Font-family: libre baskerville; 
+    display: inline-block;
+    text-align: center;
+  }
+
+  @media screen and (max-width: 720px){
+    nav {
+      display: inline-flex;
+
+    }
+  }
+  
+  .nav:hover {
+    Background-color: tan;
+    Color: white; 
+  }
+
+  #center {
+    margin-left: 40px;
+}
+
+#left {
+    margin-left: 33%;
+}
+
+  nav img {
+    width: 65px;
+    height: 65px;
+    object-fit: cover;
+    align-items: center;
+    position: absolute;
+    display: block;
+    margin-left: 48%;
+    margin-top: -30px;
+    margin-bottom: 0px;
+
+  }
+
+  
+  div a {
+    color: #94a7ae;
+}
+
+a {
+    text-decoration: none;
+    color: peru;
+}
+
+a:hover {
+    color: tan;
+}
+  
+  
+article img {
+    max-height: 200px;
+    object-fit: cover;
+    max-width: 300px;
+    min-width: 150px;
+}
+      
+article h2 {
+    text-align: center;
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(238, 211, 184);
+    background-color: #94a7ae;
+    padding: 5px;
+    width: 100%;
+}
+
+.container {
+    display: inline-flex;
+    text-align: center;
+    border: solid 1px tan;
+    border-radius: 10px;
+    padding: 15px;
+    max-height: 350px;
+    width: 80%;
+    margin-bottom: 30px;
+    margin-left: 9%;
+    margin-right: 9%;
+    display: flexbox;
+}
+
+.text {
+    font-size: 20px;
+    padding-left: 30px;
+    text-align: left;
+}
+
+article p {
+  font-size: 20px; 
+  font-weight: normal;
+}
+  
+  Button {
+    Padding: 1px;
+    Background-color: tan; 
+    Border-radius: 10px; 
+    Font-family: libre baskerville;
+    Font-size: 20px; 
+    Margin-bottom: 15px;  
+    Width: 150px; 
+    Height: 50px; 
+    Border: solid 2px white; 
+    Color: white;
+    Float: left; 
+  }
+  
+  Button:hover {
+    Background-color: Peru; 
+  }
+  
+#move {
+  margin-top: 80px;
+  font-size: 30px;
+  color:#94a7ae;
+}
+
+#email {
+  Width: 50%;
+  Height: 50px;
+  Padding: 0px 20px;
+  Margin-bottom: 15px;
+  Border-radius: 5px;
+  Border: solid 1px peru;
+  text-align: left;
+}
+
+#name {
+  Width: 50%;
+  Height: 50px;
+  Padding: 0px 20px;
+  Margin-bottom: 15px;
+  Border-radius: 5px;
+  Border: solid 1px peru;
+  text-align: left;
+}
+
+#email:hover {
+  Border: solid 2px tan;
+}
+
+#name:hover {
+  Border: solid 2px tan;
+}
+
+#comment {
+  Width: 50%;
+  Height: 150px;
+  Padding: 15px 20px; 
+  Margin-bottom: 10px;
+  Border-radius: 5px;
+  Border: solid 1px peru;
+  text-align: left;
+}
+
+#comment:hover {
+  Border: solid 2px tan; 
+  Outline: 0;
+}
+
+#send {
+  Border: 0; 
+  Padding: 10px 30px;
+  Background-color: Peru;
+  Font-size: 18px;
+  Border-radius: 15px;
+  Color: white;
+  Left: 50%;
+  Margin-right: -50%;
+  Display: block;
+  text-align: center;
+  margin-left: 45%;
+}
+
+#send:hover {
+  Background-color: tan;
+}
+
+h5 {
+  font-size: 20px;
+  color: #94a7ae;
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+  text-decoration-color: tan;
+}
+#data {
+  font-weight: bold;
+  text-align: justify;
+  font-size: 18px;
+}
+
+  Footer {
+    Text-align: right;
+    Background-color: Peru;
+    Width: 99%;
+    Padding: 10px; 
+    Color: white; 
+    Font-family: libre baskerville;
+    Margin-top: 100px; 
+  }
+
+
+
+
+

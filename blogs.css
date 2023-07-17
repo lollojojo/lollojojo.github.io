@@ -1,0 +1,172 @@
+body {
+    Background-color: whitesmoke; 
+    Font-family: times;
+  }
+
+  .WebContainer{
+    width:100%;
+    min-width:1150px;
+    height:auto;
+}
+
+@media screen and (max-width: 720px){
+    nav {
+      display: inline-flex;
+
+    }
+  }
+  
+  h1 {
+    color: tan;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+    text-decoration-color: peru;
+    text-decoration-thickness: 3px;
+}
+
+#center {
+    margin-left: 40px;
+}
+
+#left {
+    margin-left: 33%;
+}
+
+.nav {
+    Color: white;
+    Text-decoration: none;
+    Padding: 10px;
+    Border: solid 2px tan;
+    Border-radius: 10px; 
+    Margin: 30px;
+    Background-color: Peru;
+    Font-style: normal;
+    Width: 90px;
+    Font-family: times; 
+    display: inline-block;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  
+  .nav:hover {
+    Background-color: tan;
+    Color: white; 
+  }
+
+  
+
+blockquote {
+    text-align: center;
+    font-size: 20px;
+    font-style: italic;
+    color: rgb(238, 211, 184);
+    background-color: #9bb5bf;
+    padding: 10px;
+    width: 100%;
+    margin-left: 0%;
+}
+
+h3 {
+    font-size: 25px;
+    font-style: italic;
+    color: rgb(214, 199, 179);
+    text-align: center;
+    padding: 10px;
+    border: solid 2px #94a7ae;
+    background-size: 5px;
+}
+
+
+img {
+    width: 100%;
+    height: 500px;
+    min-width: 150px;
+    object-fit: cover;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+#alphabet {
+    font-size: 30px;
+    letter-spacing: 4px;
+    word-spacing: 10px;
+    margin-bottom: 35px;
+    text-align: center;
+}
+
+div a {
+    color: #94a7ae;
+}
+
+a {
+    text-decoration: none;
+    color: peru;
+}
+
+a:hover {
+    color: tan;
+}
+
+article img {
+    width: 200px;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+h2 {
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    margin-bottom: 50px;
+}
+      
+h4 {
+    font-weight: bold;
+    margin-left: 300px;
+    margin-bottom: 30px;
+}
+
+p {
+    margin-left: 300px;
+    margin-right: 300px;
+    line-height: 1.75;
+    color: darkslategray;
+}
+
+article img {
+    object-fit: cover;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 300px;
+    margin-right: 300px;
+    width: 58%;
+    height: 250px;
+}
+
+figcaption {
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 12px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+hr {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+footer {
+    Text-align: right;
+    Background-color: Peru;
+    Width: 99%;
+    Padding: 30px; 
+    Color: white; 
+    Font-family: libre baskerville;
+    Margin-top: 100px; 
+  }
+  

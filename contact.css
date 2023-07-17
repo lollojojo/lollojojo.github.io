@@ -1,0 +1,92 @@
+body {
+    Background-color: whitesmoke; 
+    Font-family: times;
+    display: flex;
+    flex-direction: column;
+}
+
+img {
+    width: 100%;
+    height: 100vh;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.contact {
+    Padding: 0; 
+    Margin: 0;
+    Position: absolute; 
+    Transform: translate(-50%, -50%)
+    Width: 500px; 
+    text-align: center;
+  }
+  
+  
+  .contact h2 {
+    position: relative;
+    color: tan;
+    font-size: 30px;
+    letter-spacing: 1px;
+    text-align: center;
+    background-color: aliceblue;
+  }
+   
+  .contact input {
+    Width: 100%;
+    Height: 50px;
+    Padding: 0px 20px;
+    Margin-bottom: 15px;
+    Border-radius: 5px;
+    Border: solid 1px peru;
+    Left: 50%;
+    Margin-right: -50%;
+  }
+  
+  .contact input:hover {
+    Border: solid 2px tan;
+    Outline: 0;
+  }
+  
+  .contact textarea {
+    Width: 100%;
+    Height: 150px;
+    Padding: 15px 20px; 
+    Margin-bottom: 10px;
+    Border-radius: 5px;
+    Border: solid 1px peru;
+    Left: 50%;
+    Margin-right: -50%;
+  }
+  
+  .contact textarea:hover {
+    Border: solid 2px tan; 
+    Outline: 0;
+  }
+  
+  .contact button {
+    Border: 0; 
+    Padding: 10px 30px;
+    Background-color: Peru;
+    Font-size: 18px;
+    Border-radius: 15px;
+    Color: white;
+    Left: 50%;
+    Margin-right: -50%;
+    Display: block;
+    text-align: center;
+    margin-left: 108%;
+  }
+  
+  .contact button:hover {
+    Background-color: tan;
+  }
+
+  Footer {
+    Text-align: right;
+    Background-color: Peru;
+    Width: 99%;
+    Padding: 10px; 
+    Color: white; 
+    Font-family: times;
+    margin-top: auto;
+  }
